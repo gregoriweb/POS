@@ -1,0 +1,162 @@
+'''
+Programa 1
+'''
+'''
+print ("Hello World")
+'''
+
+
+
+
+'''
+Programa 2
+'''
+'''
+numero = input("Digite um número: ")
+print ("O número informado foi "+numero)
+'''
+
+
+
+'''
+Programa 3
+'''
+'''
+item1_name = input("Digite o nome do item 1: ")
+item1_qt = input("Digite a quantidade do item 1: ")
+item2_name = input("Digite o nome do item 2: ")
+item2_qt = input("Digite a quantidade do item 2: ")
+item3_name = input("Digite o nome do item 3: ")
+item3_qt = input("Digite a quantidade do item 3: ")
+item4_name = input("Digite o nome do item 4: ")
+item4_qt = input("Digite a quantidade do item 4: ")
+item5_name = input("Digite o nome do item 5: ")
+item5_qt = input("Digite a quantidade do item 5: ")
+
+print (item1_name, " - Quantidade: ", item1_qt)
+print (item2_name, " - Quantidade: ", item2_qt)
+print (item3_name, " - Quantidade: ", item3_qt)
+print (item4_name, " - Quantidade: ", item4_qt)
+print (item5_name, " - Quantidade: ", item5_qt)
+
+
+print (item1_name, " - Quantidade: ", item1_qt,
+       item2_name, " - Quantidade: ", item2_qt,
+       item3_name, " - Quantidade: ", item3_qt,
+       item4_name, " - Quantidade: ", item4_qt,
+       item5_name, " - Quantidade: ", item5_qt)
+'''
+
+'''
+Programa 4 - Correcao do professor
+'''
+fruta1 = input("Informe a fruta 1: ") 
+fruta2 = input("Informe a fruta 2: ")
+fruta3 = input("Informe a fruta 3: ")
+fruta4 = input("Informe a fruta 4: ")
+fruta5 = input("Informe a fruta 5: ")
+
+print ("")
+
+print ("A fruta " + fruta1 + "custa R$ " + str(1.00))
+print ("A fruta " + fruta2 + "custa R$ " + str(1.00 * 2))
+print ("A fruta " + fruta3 + "custa R$ " + str(1.00 / 2))
+print ("A fruta " + fruta4 + "custa R$ " + str(3 * (1.00 / 2)))
+print ("A fruta " + fruta5 + "custa R$ " + str((3 * (1.00 / 2))/2))
+
+
+'''
+Programa 4 - Com for - Exemplo do professor
+'''
+
+frutas = []
+for x in range(1,6):
+frutas.append(input("Informe a fruta " + str(x) + " : "))
+
+print("A fruta " + frutas[0] + " custa R$ " + str(1.00))
+print("A fruta " + frutas[1] + " custa R$ " + str(1.00 * 2))
+print("A fruta " + frutas[2] + " custa R$ " + str(1.00 / 2))
+print("A fruta " + frutas[3] + " custa R$ " + str(3* (1.00 / 2)))
+print("A fruta " + frutas[4] + " custa R$ " + str((3* (1.00 / 2))/2))
+
+
+
+frutas = ["maca", "melacia", "banana", "Uva", "Mamao"]
+for x in range(len(frutas)):
+print(x)
+print(frutas[x])
+
+
+''' 
+for com lista - exemplo
+'''
+frutas = ["maca", "melacia", "banana", "Uva", "Mamao"]
+for x in range(len(frutas)):
+print(x)
+print(frutas[x])
+
+
+''' 
+for com lista - exemplo
+'''
+frutas = ["maca", "melacia", "banana", "Uva", "Mamao"]
+for x in range(len(frutas)):
+print(x)
+print(frutas[x])
+
+
+
+
+
+'''
+	Programa 5 
+'''
+inicioIntervalo = input ("Inicio intervalo: ")
+fimIntervalo = input ("Fim intervalo: ")
+
+soma = 0
+for x in range (int(inicioIntervalo),int(fimIntervalo)):
+    if (x%2 == 0):
+        soma = soma+x #ou soma+= x
+print(soma)
+
+'''
+	Programa 6 
+'''
+tabuada = input("Numero que deseja a tabuada: ")
+for x in range (1,11):
+    print (str(x) + " x " + tabuada + " = " + str( x * int(tabuada) ))
+	
+
+
+'''
+	Exemplo Dicionarios
+'''
+	salarios = {} # inicia o dicionario salarios
+	salarios["Medico"] = 30000 #adiciona a chave Medico e o valor 30000 a esta chave
+	salarios["Engenhero"] = 10000
+	salarios["Professor"] = 1000
+	salarios["Mecanico"] = 2000
+	salarios["frentista"] = 1500
+	print(salarios.items())  #imprime os itens do dicionario chave e valor
+	print(salarios.keys())    #imprime somente as chaves
+	print(salarios.values())  #imprime somente os valores
+
+
+
+	salarios["dentista"] = 8000 # adiciona mais o dentista e seu salario
+	print(salarios)
+
+	salarios["Professor"] = 1000 * 1.30 #atualiza valor salario professor
+	print(salarios)
+
+
+	for sal in salarios:        #imprime os salarios maiores de 5000 # sal = a chave do dicionario
+	if(salarios[sal] > 5000):   #salarios[sal] = valor do salario da chave sal
+	print(sal + " " + str(salarios[sal]))
+
+
+'''
+	Exemplo com 
+'''
+

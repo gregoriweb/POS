@@ -1,0 +1,7 @@
+1) Explique a diferença entre classes e objetos e de um exemplo.
+    Uma classe é um modelo de objeto. Pode ser entendido como seu template, sua "forma".
+    Ela define a coleção de atributos que um objeto tem. 
+    Por exemplo: Uma pessoa tem idade, altura, peso e sexo em sua coleção de atributos
+    Já o objeto é a instância de uma classe. O objeto seria a classe tranformada em um
+    ente único com sua coleção de atributos definidas.
+    Por exemplo: O objeto João é uma pessoa com Nome:João, Altura: 1.75m, Idade:37 anos e Peso: 60kg

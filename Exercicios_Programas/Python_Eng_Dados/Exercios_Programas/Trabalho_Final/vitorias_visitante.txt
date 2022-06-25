@@ -1,0 +1,121 @@
+10;25/05/2003;16h00;Domingo;Grêmio;São Paulo;São Paulo;Olímpico Monumental;1;2;RS;SP;SP
+13;15/06/2003;16h00;Domingo;Corinthians;São Paulo;São Paulo;Morumbi;1;2;SP;SP;SP
+15;29/06/2003;16h00;Domingo;Guarani;São Paulo;São Paulo;Brinco de Ouro;0;1;SP;SP;SP
+17;09/07/2003;21h40;Quarta-feira;Coritiba;São Paulo;São Paulo;Couto Pereira;0;2;PR;SP;SP
+18;13/07/2003;16h00;Domingo;Fluminense;São Paulo;São Paulo;Maracanã;1;3;RJ;SP;SP
+20;20/07/2003;16h00;Domingo;Vitória;São Paulo;São Paulo;Barradão;0;2;ES;SP;SP
+27;20/08/2003;21h40;Quarta-feira;Fortaleza;São Paulo;São Paulo;Castelão;0;2;CE;SP;SP
+39;26/10/2003;16h00;Domingo;São Caetano;São Paulo;São Paulo;Anacleto Campanella;0;1;SP;SP;SP
+44;30/11/2003;18h00;Domingo;Ponte Preta;São Paulo;São Paulo;Moisés Lucarelli;1;2;SP;SP;SP
+4;02/05/2004;18h00;Domingo;Guarani;São Paulo;São Paulo;Brinco de Ouro;2;3;SP;SP;SP
+5;09/05/2004;18h00;Domingo;Coritiba;São Paulo;São Paulo;Couto Pereira;1;2;PR;SP;SP
+19;28/07/2004;21h45;Quarta-feira;Juventude;São Paulo;São Paulo;Alfredo Jaconi;1;2;RS;SP;SP
+29;08/09/2004;20h30;Quarta-feira;Paraná;São Paulo;São Paulo;Pinheirão;0;2;PR;SP;SP
+35;06/10/2004;21h50;Quarta-feira;Ponte Preta;São Paulo;São Paulo;Moisés Lucarelli;0;1;SP;SP;SP
+36;17/10/2004;16h00;Domingo;Atletico-MG;São Paulo;São Paulo;Independência;0;5;MG;SP;SP
+44;05/12/2004;16h00;Domingo;Vitória;São Paulo;São Paulo;Barradão;1;4;ES;SP;SP
+3;08/05/2005;16h00;Domingo;Corinthians;São Paulo;São Paulo;Pacaembu;1;5;SP;SP;SP
+23;28/08/2005;16h00;Domingo;Paraná;São Paulo;São Paulo;Willie Davids;0;4;PR;SP;SP
+25;11/09/2005;18h10;Domingo;Coritiba;São Paulo;São Paulo;Couto Pereira;1;4;PR;SP;SP
+27;21/09/2005;21h45;Quarta-feira;Cruzeiro;São Paulo;São Paulo;Mineirão;2;3;MG;SP;SP
+32;16/10/2005;16h00;Domingo;Flamengo;São Paulo;São Paulo;Luso Brasileiro;1;6;RJ;SP;SP
+35;30/10/2005;18h10;Domingo;São Caetano;São Paulo;São Paulo;Anacleto Campanella;0;1;SP;SP;SP
+4;07/05/2006;16h00;Domingo;Corinthians;São Paulo;São Paulo;Teixeirão;1;3;SP;SP;SP
+13;23/07/2006;16h00;Domingo;Ponte Preta;São Paulo;São Paulo;Moisés Lucarelli;1;3;SP;SP;SP
+22;03/09/2006;18h10;Domingo;Santa Cruz;São Paulo;São Paulo;Arruda;1;3;PE;SP;SP
+25;20/09/2006;22h00;Quarta-feira;São Caetano;São Paulo;São Paulo;Anacleto Campanella;0;1;SP;SP;SP
+28;07/10/2006;18h10;Sábado;Fluminense;São Paulo;São Paulo;Maracanã;1;2;RJ;SP;SP
+31;28/10/2006;16h00;Sábado;Figueirense;São Paulo;São Paulo;Orlando Scarpelli;0;2;SC;SP;SP
+33;05/11/2006;16h00;Domingo;Santos;São Paulo;São Paulo;Vila Belmiro;0;1;SP;SP;SP
+35;12/11/2006;16h00;Domingo;Goiás;São Paulo;São Paulo;Serra Dourada;0;2;GO;SP;SP
+4;03/06/2007;18h10;Domingo;Paraná;São Paulo;São Paulo;Durival de Brito;0;1;PR;SP;SP
+7;24/06/2007;16h00;Domingo;Santos;São Paulo;São Paulo;Vila Belmiro;0;2;SP;SP;SP
+13;22/07/2007;16h00;Domingo;Cruzeiro;São Paulo;São Paulo;Mineirão;1;2;MG;SP;SP
+15;29/07/2007;18h10;Domingo;América-RN;São Paulo;São Paulo;Machadão;0;1;RN;SP;SP
+17;05/08/2007;18h10;Domingo;Grêmio;São Paulo;São Paulo;Olímpico Monumental;0;2;RS;SP;SP
+18;08/08/2007;21h45;Quarta-feira;Botafogo-RJ;São Paulo;São Paulo;Maracanã;0;2;RJ;SP;SP
+22;29/08/2007;21h30;Quarta-feira;Palmeiras;São Paulo;São Paulo;Parque Antártica;0;1;SP;SP;SP
+25;08/09/2007;16h00;Sábado;Vasco;São Paulo;São Paulo;São Januário;0;2;RJ;SP;SP
+28;30/09/2007;16h00;Domingo;Internacional;São Paulo;São Paulo;Beira Rio;1;2;RS;SP;SP
+33;28/10/2007;16h00;Domingo;Sport;São Paulo;São Paulo;Ilha do Retiro;1;2;PE;SP;SP
+6;14/06/2008;16h10;Sábado;Flamengo;São Paulo;São Paulo;Maracanã;2;4;RJ;SP;SP
+12;16/07/2008;21h45;Quarta-feira;Vitória;São Paulo;São Paulo;Barradão;1;3;ES;SP;SP
+28;04/10/2008;16h00;Sábado;Ipatinga;São Paulo;São Paulo;Ipatingão;1;3;MG;SP;SP
+32;29/10/2008;21h50;Quarta-feira;Botafogo-RJ;São Paulo;São Paulo;Engenhão;1;2;RJ;SP;SP
+34;08/11/2008;18h30;Sábado;Portuguesa;São Paulo;São Paulo;Canindé;2;3;SP;SP;SP
+36;23/11/2008;17h00;Domingo;Vasco;São Paulo;São Paulo;São Januário;1;2;RJ;SP;SP
+38;07/12/2008;17h00;Domingo;Goiás;São Paulo;São Paulo;Bezerrão;0;1;GO;SP;SP
+14;26/07/2009;18h30;Domingo;Barueri;São Paulo;São Paulo;Arena Barueri;1;2;SP;SP;SP
+16;02/08/2009;16h00;Domingo;Vitória;São Paulo;São Paulo;Barradão;0;1;ES;SP;SP
+19;16/08/2009;16h00;Domingo;Sport;São Paulo;São Paulo;Ilha do Retiro;1;2;PE;SP;SP
+23;06/09/2009;16h00;Domingo;Cruzeiro;São Paulo;São Paulo;Mineirão;1;2;MG;SP;SP
+27;30/09/2009;21h50;Quarta-feira;Náutico;São Paulo;São Paulo;Aflitos;1;2;PE;SP;SP
+31;25/10/2009;16h00;Domingo;Santos;São Paulo;São Paulo;Vila Belmiro;3;4;SP;SP;SP
+3;23/05/2010;16h00;Domingo;Internacional;São Paulo;São Paulo;Beira Rio;0;2;RS;SP;SP
+19;05/09/2010;18h30;Domingo;Atletico-MG;São Paulo;São Paulo;Ipatingão;2;3;MG;SP;SP
+23;19/09/2010;16h00;Domingo;Palmeiras;São Paulo;São Paulo;Pacaembu;0;2;SP;SP;SP
+29;09/10/2010;18h30;Sábado;Grêmio Prudente;São Paulo;São Paulo;Prudentão;2;3;SP;SP;SP
+33;03/11/2010;21h50;Quarta-feira;Cruzeiro;São Paulo;São Paulo;Parque do Sabiá;0;2;MG;SP;SP
+1;22/05/2011;18h30;Domingo;Fluminense;São Paulo;São Paulo;São Januário;0;2;RJ;SP;SP
+3;08/06/2011;21h50;Quarta-feira;Atletico-MG;São Paulo;São Paulo;Arena do Jacaré;0;1;MG;SP;SP
+5;19/06/2011;16h00;Domingo;Ceará;São Paulo;São Paulo;Presidente Vargas;0;2;CE;SP;SP
+10;17/07/2011;18h30;Domingo;Internacional;São Paulo;São Paulo;Beira Rio;0;3;RS;SP;SP
+12;27/07/2011;21h30;Quarta-feira;Coritiba;São Paulo;São Paulo;Couto Pereira;3;4;PR;SP;SP
+15;07/08/2011;18h30;Domingo;Avaí;São Paulo;São Paulo;Ressacada;1;2;SC;SP;SP
+21;03/09/2011;18h00;Sábado;Figueirense;São Paulo;São Paulo;Orlando Scarpelli;1;2;SC;SP;SP
+7;30/06/2012;16h20;Sábado;Cruzeiro;São Paulo;São Paulo;Independência;2;3;MG;SP;SP
+11;22/07/2012;16h00;Domingo;Figueirense;São Paulo;São Paulo;Orlando Scarpelli;0;2;SC;SP;SP
+19;26/08/2012;16h00;Domingo;Corinthians;São Paulo;São Paulo;Pacaembu;1;2;SP;SP;SP
+29;10/10/2012;22h00;Quarta-feira;Vasco;São Paulo;São Paulo;São Januário;0;2;RJ;SP;SP
+33;27/10/2012;18h30;Sábado;Sport;São Paulo;São Paulo;Ilha do Retiro;2;4;PE;SP;SP
+1;26/05/2013;16:00;Domingo;Ponte Preta;São Paulo;São Paulo;Moisés Lucarelli;0;2;SP;SP;SP
+10;03/09/2013;21:00;Terça-feira;Náutico;São Paulo;São Paulo;Arena Pernambuco;0;1;PE;SP;SP
+21;15/09/2013;16:00;Domingo;Vasco;São Paulo;São Paulo;São Januário;0;2;RJ;SP;SP
+27;09/10/2013;21:50;Quarta-feira;Cruzeiro;São Paulo;São Paulo;Mineirão;0;2;MG;SP;SP
+30;20/10/2013;17:00;Domingo;Bahia;São Paulo;São Paulo;Fonte Nova;0;1;BA;SP;SP
+31;27/10/2013;17:00;Domingo;Internacional;São Paulo;São Paulo;Centenário;2;3;RS;SP;SP
+5;18/05/2014;16h00;Domingo;Flamengo;São Paulo;São Paulo;Maracanã;0;2;RJ;SP;SP
+10;16/07/2014;22h00;Quarta-feira;Bahia;São Paulo;São Paulo;Fonte Nova;0;2;BA;SP;SP
+15;17/08/2014;16h00;Domingo;Palmeiras;São Paulo;São Paulo;Pacaembu;1;2;SP;SP;SP
+16;20/08/2014;22h00;Quarta-feira;Internacional;São Paulo;São Paulo;Beira Rio;0;1;RS;SP;SP
+20;10/09/2014;22h00;Quarta-feira;Botafogo-RJ;São Paulo;São Paulo;Mané Garrincha;2;4;RJ;SP;SP
+26;04/10/2014;16h20;Sábado;Grêmio;São Paulo;São Paulo;Arena do Grêmio;0;1;RS;SP;SP
+32;02/11/2014;17h00;Domingo;Criciúma;São Paulo;São Paulo;Heriberto Hulse;1;2;SC;SP;SP
+33;09/11/2014;17h00;Domingo;Vitória;São Paulo;São Paulo;Barradão;1;2;ES;SP;SP
+36;23/11/2014;17h00;Domingo;Santos;São Paulo;São Paulo;Arena Pantanal;0;1;SP;SP;SP
+7;13/06/2015;16h20;Sábado;Chapecoense;São Paulo;São Paulo;Arena Condá;0;1;SC;SP;SP
+12;08/07/2015;22h00;Quarta-feira;Vasco;São Paulo;São Paulo;Mané Garrincha;0;4;RJ;SP;SP
+18;12/08/2015;22h00;Quarta-feira;Figueirense;São Paulo;São Paulo;Orlando Scarpelli;0;2;SC;SP;SP
+25;13/09/2015;16h00;Domingo;Grêmio;São Paulo;São Paulo;Arena do Grêmio;1;2;RS;SP;SP
+32;25/10/2015;17h00;Domingo;Coritiba;São Paulo;São Paulo;Couto Pereira;1;2;PR;SP;SP
+38;06/12/2015;;Domingo;Goiás;São Paulo;São Paulo;Serra Dourada;0;1;GO;SP;SP
+1;15/05/2016;11:00;Domingo;Botafogo-RJ;São Paulo;São Paulo;Raulino de Oliveira;0;1;RJ;SP;SP
+6;05/06/2016;18:30;Domingo;Cruzeiro;São Paulo;São Paulo;Mineirão;0;1;MG;SP;SP
+19;07/08/2016;16:15;Domingo;Santa Cruz;São Paulo;São Paulo;Arruda;1;2;PE;SP;SP
+31;17/10/2016;20:00;Segunda-feira;Fluminense;São Paulo;São Paulo;Edson Passos;1;2;RJ;SP;SP
+37;27/11/2016;17:00;Domingo;Atletico-MG;São Paulo;São Paulo;Independência;1;2;MG;SP;SP
+17;29/07/2017;16:00;Sábado;Botafogo-RJ;São Paulo;São Paulo;Engenhão;3;4;RJ;SP;SP
+24;17/09/2017;16:00;Domingo;Vitória;São Paulo;São Paulo;Barradão;1;2;ES;SP;SP
+32;04/11/2017;19:00;Sábado;Atlético-GO;São Paulo;São Paulo;Serra Dourada;0;1;GO;SP;SP
+37;26/11/2017;17:00;Domingo;Coritiba;São Paulo;São Paulo;Couto Pereira;1;2;PR;SP;SP
+7;27/05/2018;19:00;Domingo;América-MG;São Paulo;São Paulo;Independência;1;3;MG;SP;SP
+11;09/06/2018;16:00;Sábado;Athlético-PR;São Paulo;São Paulo;Arena da Baixada;0;1;PR;SP;SP
+13;18/07/2018;21:45;Quarta-feira;Flamengo;São Paulo;São Paulo;Maracanã;0;1;RJ;SP;SP
+16;29/07/2018;16:00;Domingo;Cruzeiro;São Paulo;São Paulo;Mineirão;0;2;MG;SP;SP
+18;12/08/2018;16:00;Domingo;Sport;São Paulo;São Paulo;Ilha do Retiro;1;3;PE;SP;SP
+31;26/10/2018;20:30;Sexta-feira;Vitória;São Paulo;São Paulo;Barradão;0;1;ES;SP;SP
+2;01/05/2019;21:30;Quarta-feira;Goiás;São Paulo;São Paulo;Serra Dourada;1;2;GO;SP;SP
+4;12/05/2019;19:00;Domingo;Fortaleza;São Paulo;São Paulo;Castelão;0;1;CE;SP;SP
+12;27/07/2019;19:00;Sábado;Fluminense;São Paulo;São Paulo;Maracanã;1;2;RJ;SP;SP
+13;21/08/2019;19:15;Quarta-feira;Athlético-PR;São Paulo;São Paulo;Arena da Baixada;0;1;PR;SP;SP
+20;21/09/2019;11:00;Sábado;Botafogo-RJ;São Paulo;São Paulo;Engenhão;1;2;RJ;SP;SP
+30;02/11/2019;21:00;Sábado;Chapecoense;São Paulo;São Paulo;Arena Condá;0;3;SC;SP;SP
+38;08/12/2019;17:00;Domingo;CSA;São Paulo;São Paulo;Rei Pelé;1;2;AL;SP;SP
+1;03/12/2020;19:00;Quinta-Feira;Goiás;São Paulo;São Paulo;Serrinha;0;3;GO;SP;SP
+5;23/08/2020;19:00;Domingo;Sport;São Paulo;São Paulo;Ilha do Retiro;0;1;PE;SP;SP
+15;10/10/2020;19:00;Sábado;Palmeiras;São Paulo;São Paulo;Allianz Parque;0;2;SP;SP;SP
+19;01/11/2020;16:00;Domingo;Flamengo;São Paulo;São Paulo;Maracanã;1;4;RJ;SP;SP
+21;14/11/2020;19:00;Sábado;Fortaleza;São Paulo;São Paulo;Castelão;2;3;CE;SP;SP
+23;28/11/2020;19:00;Sábado;Bahia;São Paulo;São Paulo;Itaipava Arena Fonte Nova;1;3;BA;SP;SP
+27;26/12/2020;21:00;Sábado;Fluminense;São Paulo;São Paulo;Maracanã;1;2;RJ;SP;SP
+36;14/02/2021;20:30;Domingo;Grêmio;São Paulo;São Paulo;Arena do Grêmio;1;2;RS;SP;SP
