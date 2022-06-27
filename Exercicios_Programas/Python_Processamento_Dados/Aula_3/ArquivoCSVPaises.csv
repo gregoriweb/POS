@@ -1,0 +1,601 @@
+;country;city
+0;Afghanistan;Kabul
+1;Algeria;Batna
+2;Algeria;Bchar
+3;Algeria;Skikda
+4;American Samoa;Tafuna
+5;Angola;Benguela
+6;Angola;Namibe
+7;Anguilla;South Hill
+8;Argentina;Almirante Brown
+9;Argentina;Avellaneda
+10;Argentina;Baha Blanca
+11;Argentina;Crdoba
+12;Argentina;Escobar
+13;Argentina;Ezeiza
+14;Argentina;La Plata
+15;Argentina;Merlo
+16;Argentina;Quilmes
+17;Argentina;San Miguel de Tucumn
+18;Argentina;Santa F
+19;Argentina;Tandil
+20;Argentina;Vicente Lpez
+21;Armenia;Yerevan
+22;Australia;Woodridge
+23;Austria;Graz
+24;Austria;Linz
+25;Austria;Salzburg
+26;Azerbaijan;Baku
+27;Azerbaijan;Sumqayit
+28;Bahrain;al-Manama
+29;Bangladesh;Dhaka
+30;Bangladesh;Jamalpur
+31;Bangladesh;Tangail
+32;Belarus;Mogiljov
+33;Belarus;Molodetno
+34;Bolivia;El Alto
+35;Bolivia;Sucre
+36;Brazil;Alvorada
+37;Brazil;Angra dos Reis
+38;Brazil;Anpolis
+39;Brazil;Aparecida de Goinia
+40;Brazil;Araatuba
+41;Brazil;Bag
+42;Brazil;Belm
+43;Brazil;Blumenau
+44;Brazil;Boa Vista
+45;Brazil;Braslia
+46;Brazil;Goinia
+47;Brazil;Guaruj
+48;Brazil;guas Lindas de Gois
+49;Brazil;Ibirit
+50;Brazil;Juazeiro do Norte
+51;Brazil;Juiz de Fora
+52;Brazil;Luzinia
+53;Brazil;Maring
+54;Brazil;Po
+55;Brazil;Poos de Caldas
+56;Brazil;Rio Claro
+57;Brazil;Santa Brbara dOeste
+58;Brazil;Santo Andr
+59;Brazil;So Bernardo do Campo
+60;Brazil;So Leopoldo
+61;Brazil;Sorocaba
+62;Brazil;Vila Velha
+63;Brazil;Vitria de Santo Anto
+64;Brunei;Bandar Seri Begawan
+65;Bulgaria;Ruse
+66;Bulgaria;Stara Zagora
+67;Cambodia;Battambang
+68;Cambodia;Phnom Penh
+69;Cameroon;Bamenda
+70;Cameroon;Yaound
+71;Canada;Gatineau
+72;Canada;Halifax
+73;Canada;Lethbridge
+74;Canada;London
+75;Canada;Oshawa
+76;Canada;Richmond Hill
+77;Canada;Vancouver
+78;Chad;NDjamna
+79;Chile;Antofagasta
+80;Chile;Coquimbo
+81;Chile;Rancagua
+82;China;Baicheng
+83;China;Baiyin
+84;China;Binzhou
+85;China;Changzhou
+86;China;Datong
+87;China;Daxian
+88;China;Dongying
+89;China;Emeishan
+90;China;Enshi
+91;China;Ezhou
+92;China;Fuyu
+93;China;Fuzhou
+94;China;Haining
+95;China;Hami
+96;China;Hohhot
+97;China;Huaian
+98;China;Jinchang
+99;China;Jining
+100;China;Jinzhou
+101;China;Junan
+102;China;Korla
+103;China;Laiwu
+104;China;Laohekou
+105;China;Lengshuijiang
+106;China;Leshan
+107;China;Liaocheng
+108;China;Meixian
+109;China;Nanyang
+110;China;Pingxiang
+111;China;Qinhuangdao
+112;China;Rizhao
+113;China;Sanya
+114;China;Shanwei
+115;China;Shaoguan
+116;China;Shenzhen
+117;China;Suihua
+118;China;Tianjin
+119;China;Tiefa
+120;China;Tieli
+121;China;Tongliao
+122;China;Weifang
+123;China;Xiangfan
+124;China;Xiangtan
+125;China;Xintai
+126;China;Xinxiang
+127;China;Yantai
+128;China;Yinchuan
+129;China;Yingkou
+130;China;Yuncheng
+131;China;Yuzhou
+132;China;Zalantun
+133;China;Zaoyang
+134;China;Zhoushan
+135;Colombia;Buenaventura
+136;Colombia;Dos Quebradas
+137;Colombia;Florencia
+138;Colombia;Pereira
+139;Colombia;Sincelejo
+140;Colombia;Sogamoso
+141;Congo, The Democratic Republic of the;Lubumbashi
+142;Congo, The Democratic Republic of the;Mwene-Ditu
+143;Czech Republic;Olomouc
+144;Dominican Republic;La Romana
+145;Dominican Republic;San Felipe de Puerto Plata
+146;Dominican Republic;Santiago de los Caballeros
+147;Ecuador;Loja
+148;Ecuador;Portoviejo
+149;Ecuador;Robamba
+150;Egypt;Bilbays
+151;Egypt;Idfu
+152;Egypt;Mit Ghamr
+153;Egypt;Qalyub
+154;Egypt;Sawhaj
+155;Egypt;Shubra al-Khayma
+156;Estonia;Tartu
+157;Ethiopia;Addis Abeba
+158;Faroe Islands;Trshavn
+159;Finland;Oulu
+160;France;Brest
+161;France;Le Mans
+162;France;Toulon
+163;France;Toulouse
+164;French Guiana;Cayenne
+165;French Polynesia;Faaa
+166;French Polynesia;Papeete
+167;Gambia;Banjul
+168;Germany;Duisburg
+169;Germany;Erlangen
+170;Germany;Halle/Saale
+171;Germany;Mannheim
+172;Germany;Saarbrcken
+173;Germany;Siegen
+174;Germany;Witten
+175;Greece;Athenai
+176;Greece;Patras
+177;Greenland;Nuuk
+178;Holy See (Vatican City State);Citt del Vaticano
+179;Hong Kong;Kowloon and New Kowloon
+180;Hungary;Szkesfehrvr
+181;India;Adoni
+182;India;Ahmadnagar
+183;India;Allappuzha (Alleppey)
+184;India;Ambattur
+185;India;Amroha
+186;India;Balurghat
+187;India;Berhampore (Baharampur)
+188;India;Bhavnagar
+189;India;Bhilwara
+190;India;Bhimavaram
+191;India;Bhopal
+192;India;Bhusawal
+193;India;Bijapur
+194;India;Chandrapur
+195;India;Chapra
+196;India;Dhule (Dhulia)
+197;India;Etawah
+198;India;Firozabad
+199;India;Gandhinagar
+200;India;Gulbarga
+201;India;Haldia
+202;India;Halisahar
+203;India;Hoshiarpur
+204;India;Hubli-Dharwad
+205;India;Jaipur
+206;India;Jhansi
+207;India;Jodhpur
+208;India;Kamarhati
+209;India;Kanchrapara
+210;India;Karnal
+211;India;Katihar
+212;India;Kumbakonam
+213;India;Miraj
+214;India;Munger (Monghyr)
+215;India;Mysore
+216;India;Nagaon
+217;India;Palghat (Palakkad)
+218;India;Parbhani
+219;India;Pathankot
+220;India;Patiala
+221;India;Pudukkottai
+222;India;Pune
+223;India;Purnea (Purnia)
+224;India;Rae Bareli
+225;India;Rajkot
+226;India;Rampur
+227;India;Ranchi
+228;India;Sambhal
+229;India;Satna
+230;India;Shimoga
+231;India;Shivapuri
+232;India;Siliguri (Shiliguri)
+233;India;Tambaram
+234;India;Udaipur
+235;India;Uluberia
+236;India;Uttarpara-Kotrung
+237;India;Valparai
+238;India;Varanasi (Benares)
+239;India;Vijayawada
+240;India;Yamuna Nagar
+241;Indonesia;Cianjur
+242;Indonesia;Ciomas
+243;Indonesia;Ciparay
+244;Indonesia;Gorontalo
+245;Indonesia;Jakarta
+246;Indonesia;Lhokseumawe
+247;Indonesia;Madiun
+248;Indonesia;Pangkal Pinang
+249;Indonesia;Pemalang
+250;Indonesia;Pontianak
+251;Indonesia;Probolinggo
+252;Indonesia;Purwakarta
+253;Indonesia;Surakarta
+254;Indonesia;Tegal
+255;Iran;Arak
+256;Iran;Esfahan
+257;Iran;Kermanshah
+258;Iran;Najafabad
+259;Iran;Qomsheh
+260;Iran;Shahr-e Kord
+261;Iran;Sirjan
+262;Iran;Tabriz
+263;Iraq;Mosul
+264;Israel;Ashdod
+265;Israel;Ashqelon
+266;Israel;Bat Yam
+267;Israel;Tel Aviv-Jaffa
+268;Italy;Alessandria
+269;Italy;Bergamo
+270;Italy;Brescia
+271;Italy;Brindisi
+272;Italy;Livorno
+273;Italy;Syrakusa
+274;Italy;Udine
+275;Japan;Akishima
+276;Japan;Fukuyama
+277;Japan;Higashiosaka
+278;Japan;Hino
+279;Japan;Hiroshima
+280;Japan;Isesaki
+281;Japan;Iwaki
+282;Japan;Iwakuni
+283;Japan;Iwatsuki
+284;Japan;Izumisano
+285;Japan;Kakamigahara
+286;Japan;Kamakura
+287;Japan;Kanazawa
+288;Japan;Koriyama
+289;Japan;Kurashiki
+290;Japan;Kuwana
+291;Japan;Matsue
+292;Japan;Miyakonojo
+293;Japan;Nagareyama
+294;Japan;Okayama
+295;Japan;Okinawa
+296;Japan;Omiya
+297;Japan;Onomichi
+298;Japan;Otsu
+299;Japan;Sagamihara
+300;Japan;Sasebo
+301;Japan;Shimonoseki
+302;Japan;Tama
+303;Japan;Tsuyama
+304;Japan;Ueda
+305;Japan;Urawa
+306;Kazakstan;Pavlodar
+307;Kazakstan;Zhezqazghan
+308;Kenya;Kisumu
+309;Kenya;Nyeri
+310;Kuwait;Jalib al-Shuyukh
+311;Latvia;Daugavpils
+312;Latvia;Liepaja
+313;Liechtenstein;Vaduz
+314;Lithuania;Vilnius
+315;Madagascar;Mahajanga
+316;Malawi;Lilongwe
+317;Malaysia;Ipoh
+318;Malaysia;Kuching
+319;Malaysia;Sungai Petani
+320;Mexico;Acua
+321;Mexico;Allende
+322;Mexico;Atlixco
+323;Mexico;Carmen
+324;Mexico;Celaya
+325;Mexico;Coacalco de Berriozbal
+326;Mexico;Coatzacoalcos
+327;Mexico;Cuauhtmoc
+328;Mexico;Cuautla
+329;Mexico;Cuernavaca
+330;Mexico;El Fuerte
+331;Mexico;Guadalajara
+332;Mexico;Hidalgo
+333;Mexico;Huejutla de Reyes
+334;Mexico;Huixquilucan
+335;Mexico;Jos Azueta
+336;Mexico;Jurez
+337;Mexico;La Paz
+338;Mexico;Matamoros
+339;Mexico;Mexicali
+340;Mexico;Monclova
+341;Mexico;Nezahualcyotl
+342;Mexico;Pachuca de Soto
+343;Mexico;Salamanca
+344;Mexico;San Felipe del Progreso
+345;Mexico;San Juan Bautista Tuxtepec
+346;Mexico;Torren
+347;Mexico;Uruapan
+348;Mexico;Valle de Santiago
+349;Mexico;Zapopan
+350;Moldova;Chisinau
+351;Morocco;Beni-Mellal
+352;Morocco;Nador
+353;Morocco;Sal
+354;Mozambique;Beira
+355;Mozambique;Naala-Porto
+356;Mozambique;Tete
+357;Myanmar;Monywa
+358;Myanmar;Myingyan
+359;Nauru;Yangor
+360;Nepal;Birgunj
+361;Netherlands;Amersfoort
+362;Netherlands;Apeldoorn
+363;Netherlands;Ede
+364;Netherlands;Emmen
+365;Netherlands;s-Hertogenbosch
+366;New Zealand;Hamilton
+367;Nigeria;Benin City
+368;Nigeria;Deba Habe
+369;Nigeria;Effon-Alaiye
+370;Nigeria;Ife
+371;Nigeria;Ikerre
+372;Nigeria;Ilorin
+373;Nigeria;Kaduna
+374;Nigeria;Ogbomosho
+375;Nigeria;Ondo
+376;Nigeria;Owo
+377;Nigeria;Oyo
+378;Nigeria;Sokoto
+379;Nigeria;Zaria
+380;North Korea;Pyongyang
+381;Oman;Masqat
+382;Oman;Salala
+383;Pakistan;Dadu
+384;Pakistan;Mandi Bahauddin
+385;Pakistan;Mardan
+386;Pakistan;Okara
+387;Pakistan;Shikarpur
+388;Paraguay;Asuncin
+389;Paraguay;Ciudad del Este
+390;Paraguay;San Lorenzo
+391;Peru;Callao
+392;Peru;Hunuco
+393;Peru;Lima
+394;Peru;Sullana
+395;Philippines;Baybay
+396;Philippines;Bayugan
+397;Philippines;Bislig
+398;Philippines;Cabuyao
+399;Philippines;Cavite
+400;Philippines;Davao
+401;Philippines;Gingoog
+402;Philippines;Hagonoy
+403;Philippines;Iligan
+404;Philippines;Imus
+405;Philippines;Lapu-Lapu
+406;Philippines;Mandaluyong
+407;Philippines;Ozamis
+408;Philippines;Santa Rosa
+409;Philippines;Taguig
+410;Philippines;Talavera
+411;Philippines;Tanauan
+412;Philippines;Tanza
+413;Philippines;Tarlac
+414;Philippines;Tuguegarao
+415;Poland;Bydgoszcz
+416;Poland;Czestochowa
+417;Poland;Jastrzebie-Zdrj
+418;Poland;Kalisz
+419;Poland;Lublin
+420;Poland;Plock
+421;Poland;Tychy
+422;Poland;Wroclaw
+423;Puerto Rico;Arecibo
+424;Puerto Rico;Ponce
+425;Romania;Botosani
+426;Romania;Bucuresti
+427;Runion;Saint-Denis
+428;Russian Federation;Atinsk
+429;Russian Federation;Balaiha
+430;Russian Federation;Dzerzinsk
+431;Russian Federation;Elista
+432;Russian Federation;Ivanovo
+433;Russian Federation;Jaroslavl
+434;Russian Federation;Jelets
+435;Russian Federation;Kaliningrad
+436;Russian Federation;Kamyin
+437;Russian Federation;Kirovo-Tepetsk
+438;Russian Federation;Kolpino
+439;Russian Federation;Korolev
+440;Russian Federation;Kurgan
+441;Russian Federation;Kursk
+442;Russian Federation;Lipetsk
+443;Russian Federation;Ljubertsy
+444;Russian Federation;Maikop
+445;Russian Federation;Moscow
+446;Russian Federation;Nabereznyje Telny
+447;Russian Federation;Niznekamsk
+448;Russian Federation;Novoterkassk
+449;Russian Federation;Pjatigorsk
+450;Russian Federation;Serpuhov
+451;Russian Federation;Smolensk
+452;Russian Federation;Syktyvkar
+453;Russian Federation;Teboksary
+454;Russian Federation;Usolje-Sibirskoje
+455;Russian Federation;Zeleznogorsk
+456;Saint Vincent and the Grenadines;Kingstown
+457;Saudi Arabia;Abha
+458;Saudi Arabia;al-Hawiya
+459;Saudi Arabia;al-Qatif
+460;Saudi Arabia;Jedda
+461;Saudi Arabia;Tabuk
+462;Senegal;Ziguinchor
+463;Slovakia;Bratislava
+464;South Africa;Boksburg
+465;South Africa;Botshabelo
+466;South Africa;Chatsworth
+467;South Africa;Johannesburg
+468;South Africa;Kimberley
+469;South Africa;Klerksdorp
+470;South Africa;Newcastle
+471;South Africa;Paarl
+472;South Africa;Rustenburg
+473;South Africa;Soshanguve
+474;South Africa;Springs
+475;South Korea;Cheju
+476;South Korea;Kimchon
+477;South Korea;Naju
+478;South Korea;Tonghae
+479;South Korea;Uijongbu
+480;Spain;A Corua (La Corua)
+481;Spain;Donostia-San Sebastin
+482;Spain;Gijn
+483;Spain;Ourense (Orense)
+484;Spain;Santiago de Compostela
+485;Sri Lanka;Jaffna
+486;Sudan;al-Qadarif
+487;Sudan;Omdurman
+488;Sweden;Malm
+489;Switzerland;Basel
+490;Switzerland;Bern
+491;Switzerland;Lausanne
+492;Taiwan;Changhwa
+493;Taiwan;Chiayi
+494;Taiwan;Chungho
+495;Taiwan;Fengshan
+496;Taiwan;Hsichuh
+497;Taiwan;Lungtan
+498;Taiwan;Nantou
+499;Taiwan;Tanshui
+500;Taiwan;Touliu
+501;Taiwan;Tsaotun
+502;Tanzania;Mwanza
+503;Tanzania;Tabora
+504;Tanzania;Zanzibar
+505;Thailand;Nakhon Sawan
+506;Thailand;Pak Kret
+507;Thailand;Songkhla
+508;Tonga;Nukualofa
+509;Tunisia;Sousse
+510;Turkey;Adana
+511;Turkey;Balikesir
+512;Turkey;Batman
+513;Turkey;Denizli
+514;Turkey;Eskisehir
+515;Turkey;Gaziantep
+516;Turkey;Inegl
+517;Turkey;Kilis
+518;Turkey;Ktahya
+519;Turkey;Osmaniye
+520;Turkey;Sivas
+521;Turkey;Sultanbeyli
+522;Turkey;Tarsus
+523;Turkey;Tokat
+524;Turkey;Usak
+525;Turkmenistan;Ashgabat
+526;Tuvalu;Funafuti
+527;Ukraine;Kamjanets-Podilskyi
+528;Ukraine;Konotop
+529;Ukraine;Mukateve
+530;Ukraine;ostka
+531;Ukraine;Simferopol
+532;Ukraine;Sumy
+533;United Arab Emirates;Abu Dhabi
+534;United Arab Emirates;al-Ayn
+535;United Arab Emirates;Sharja
+536;United Kingdom;Bradford
+537;United Kingdom;Dundee
+538;United Kingdom;London
+539;United Kingdom;Southampton
+540;United Kingdom;Southend-on-Sea
+541;United Kingdom;Southport
+542;United Kingdom;Stockport
+543;United Kingdom;York
+544;United States;Akron
+545;United States;Arlington
+546;United States;Augusta-Richmond County
+547;United States;Aurora
+548;United States;Bellevue
+549;United States;Brockton
+550;United States;Cape Coral
+551;United States;Citrus Heights
+552;United States;Clarksville
+553;United States;Compton
+554;United States;Dallas
+555;United States;Dayton
+556;United States;El Monte
+557;United States;Fontana
+558;United States;Garden Grove
+559;United States;Garland
+560;United States;Grand Prairie
+561;United States;Greensboro
+562;United States;Joliet
+563;United States;Kansas City
+564;United States;Lancaster
+565;United States;Laredo
+566;United States;Lincoln
+567;United States;Manchester
+568;United States;Memphis
+569;United States;Peoria
+570;United States;Roanoke
+571;United States;Rockford
+572;United States;Saint Louis
+573;United States;Salinas
+574;United States;San Bernardino
+575;United States;Sterling Heights
+576;United States;Sunnyvale
+577;United States;Tallahassee
+578;United States;Warren
+579;Venezuela;Barcelona
+580;Venezuela;Caracas
+581;Venezuela;Cuman
+582;Venezuela;Maracabo
+583;Venezuela;Ocumare del Tuy
+584;Venezuela;Valencia
+585;Venezuela;Valle de la Pascua
+586;Vietnam;Cam Ranh
+587;Vietnam;Haiphong
+588;Vietnam;Hanoi
+589;Vietnam;Nam Dinh
+590;Vietnam;Nha Trang
+591;Vietnam;Vinh
+592;Virgin Islands, U.S.;Charlotte Amalie
+593;Yemen;Aden
+594;Yemen;Hodeida
+595;Yemen;Sanaa
+596;Yemen;Taizz
+597;Yugoslavia;Kragujevac
+598;Yugoslavia;Novi Sad
+599;Zambia;Kitwe
