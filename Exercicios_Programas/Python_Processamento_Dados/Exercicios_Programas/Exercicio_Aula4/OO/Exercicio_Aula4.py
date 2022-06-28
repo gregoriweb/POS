@@ -4,9 +4,11 @@
     b) Gerar um gráfico com  os 10 municípios mineiros com menor expectativa de vida.
     c) Gerar um grafico com o municipio com maior expectativa.
     d) Gerar um grafico com o municipio com menor expectativa.
+    https://note.nkmk.me/en/python-dict-list-sort/#:~:text=To%20sort%20a%20list%20of,the%20result%20of%20that%20function.
 '''
+
 from FonteDados import FonteDados
-#import OO.DestinoDados
+
 
 class Municipio():
 
@@ -24,36 +26,24 @@ class MunicipioExpectativa():
 
         fd = FonteDados()
         fd.vetorArquivo(arquivo)
-        municipios = {}
+        lista_municipios = fd.dataset
 
-        for i in fd.dataset:
-            mun = Municipio()
-            mun.municipio = i[0]
-            mun.expectativa = i[1]
-            municipios[mun.municipio] = mun.expectativa 
-        return municipios
+        print (type(lista_municipios))
 
-    def ev_municipios_top10 (self,municipios):
-        return
+        return lista_municipios
 
+    def ev_municipios_maiores(self, lista_municipios, itens): 
+        lista_municipios.sort(key=lambda expectativa: expectativa[1], reverse=True)
+        return lista_municipios[:itens]
+
+    def ev_municipios_menores(self, lista_municipios, itens): 
+        lista_municipios.sort(key=lambda expectativa: expectativa[1], reverse=False)
+        return lista_municipios[:itens]
+
+
+# Teste:
 me = MunicipioExpectativa()
-me.ev_municipios()
-
-
-
-
-#    def vitoriasMandante(self):
-#        for i in self.lista_jogos:
-#            if (i.time_mandante == self.time_analisado and i.time_vencedor == self.time_analisado):
-#                self.VitoriasMandante.append(i)
-#                self.QtdVitoriasMandante += 1
-#                self.lista_jogos_mandante.append(i.linha_dados)
-#        return self.QtdVitoriasMandante
-#
-#    def vitoriasVisitante(self):
-#        for i in self.lista_jogos:
-#            if (i.time_visitante == self.time_analisado and i.time_vencedor == self.time_analisado):
-#                self.VitoriasVisitante.append(i)
-#                self.QtdVitoriasVisitante += 1
-#                self.lista_jogos_visitante.append(i.linha_dados)
-#        return self.QtdVitoriasVisitante
+for i in me.ev_municipios_x_maiores(me.ev_municipios(), 10):
+    print (i)
+for i in me.ev_municipios_x_menores(me.ev_municipios(), 10):
+    print (i)
