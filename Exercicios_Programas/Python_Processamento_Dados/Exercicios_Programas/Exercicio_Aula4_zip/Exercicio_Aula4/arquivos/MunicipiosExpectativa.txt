@@ -1,0 +1,853 @@
+Passos;78.15
+Itajubá;78.06
+Barbacena;77.88
+Uberlândia;78.09
+Tiradentes;78.1
+Viçosa;77.96
+Itabira;77.37
+Poços de Caldas;77.31
+Santa Luzia;76.52
+Guaxupé;77.81
+Lavras;77.8
+Perdizes;77.8
+São Lourenço;77.28
+Chácara;77.66
+Santana do Paraíso;77.66
+Itutinga;77.67
+Andradas;77.69
+Itapeva;77.69
+Monte Sião;77.69
+Perdões;77.69
+Piumhi;77.7
+Pouso Alegre;77.33
+Carrancas;77.59
+Congonhas;77.59
+Conquista;77.59
+Ibiá;77.62
+Nova Lima;78.1
+São José da Barra;77.56
+Araguari;77.28
+Arcos;77.43
+Formiga;77.43
+Mariana;77.43
+Pains;77.43
+Monte Santo de Minas;77.46
+São Tomás de Aquino;77.46
+Estrela do Indaiá;77.49
+Leandro Ferreira;77.49
+Carneirinho;77.37
+Fronteira;77.28
+Sarzedo;77.28
+Delfinópolis;77.31
+Ouro Branco;77.31
+Canápolis;77.32
+Cambuí;77.33
+Caldas;77.35
+Pitangui;77.22
+Rio Acima;77.22
+Aiuruoca;77.23
+Itanhandu;77.23
+Lambari;77.23
+Tombos;77.23
+Pratinha;77.24
+Sacramento;77.25
+Arapuá;77.27
+Veríssimo;77.16
+Bambuí;77.2
+Varginha;77.49
+Campina Verde;77.06
+Botelhos;77.07
+Campo Belo;77.1
+Monte Carmelo;77.1
+Doresópolis;77.11
+Ipuiúna;76.98
+São Francisco de Sales;77.01
+Estrela Dalva;77.04
+Leopoldina;77.04
+Chiador;77.05
+Pequeri;77.05
+Santa Juliana;77.06
+Borda da Mata;76.92
+Frutal;76.92
+Três Marias;76.93
+Poço Fundo;76.95
+Santa Rosa da Serra;76.95
+Vazante;76.96
+Coronel Fabriciano;76.88
+Campo Florido;76.46
+Barroso;76.84
+Silvianópolis;76.87
+Gurinhatã;76.88
+Santa Vitória;76.88
+Prados;76.89
+Betim;76.82
+Fama;76.77
+Rio Pomba;76.77
+Serra da Saudade;76.78
+Tupaciguara;76.78
+Jacutinga;76.82
+Matozinhos;76.82
+Nova Serrana;76.82
+Alpinópolis;76.71
+Conceição das Alagoas;76.72
+Matias Barbosa;76.73
+Bom Jesus da Penha;76.74
+Itaú de Minas;76.74
+Pratápolis;76.74
+Carmo do Paranaíba;76.63
+Itapagipe;76.64
+Bom Despacho;76.66
+Ouro Fino;76.66
+Cataguases;76.68
+Lima Duarte;76.68
+Belo Horizonte;76.37
+Coromandel;76.57
+São João del Rei;76.57
+Água Comprida;76.58
+Passa Quatro;76.59
+Juruaia;76.61
+Campos Altos;76.62
+Montes Claros;77.07
+Araxá;76.49
+Astolfo Dutra;76.5
+Muzambinho;76.51
+Matutina;76.53
+Cristais;76.54
+São José da Varginha;76.41
+Laranjal;76.42
+Além Paraíba;76.43
+Lagoa Santa;76.43
+Ingaí;76.45
+Barão de Cocais;76.46
+Pirajuba;76.46
+Ipatinga;76.85
+Cambuquira;76.34
+Jaguaraçu;76.35
+Madre de Deus de Minas;76.38
+Brumadinho;76.39
+Biquinhas;76.4
+Araújos;76.27
+São Gotardo;76.27
+Boa Esperança;76.28
+Ibiraci;76.28
+Rio Paranaíba;76.28
+Três Corações;76.28
+Pedrinópolis;76.29
+Pedro Leopoldo;76.33
+Paracatu;76.22
+Jequitibá;76.26
+Tiros;76.13
+Patrocínio;76.14
+Carmo do Cajuru;76.16
+Cruzília;76.17
+Itamonte;76.17
+Seritinga;76.17
+Centralina;76.19
+Planura;76.1
+Paraisópolis;76.11
+Serra do Salitre;76.11
+Prata;76.12
+Bicas;75.99
+Carmópolis de Minas;75.99
+São Gonçalo do Sapucaí;75.99
+Carmo do Rio Claro;76.01
+Comendador Gomes;76.01
+Ribeirão Vermelho;76.01
+Cachoeira Dourada;76.02
+Nanuque;76.02
+Medeiros;76.04
+Curvelo;76.05
+Antônio Dias;75.93
+Campanha;75.93
+João Monlevade;75.93
+Santana do Deserto;75.93
+Juatuba;75.94
+Extrema;75.95
+Guarani;75.96
+Conceição do Pará;75.97
+Visconde do Rio Branco;75.97
+Carvalhópolis;75.98
+Paraguaçu;75.98
+Santana da Vargem;75.98
+São João Nepomuceno;75.98
+Três Pontas;75.98
+Uberaba;75.71
+Caxambu;75.85
+Monte Alegre de Minas;75.86
+Bocaina de Minas;75.87
+Brasilândia de Minas;75.87
+Ipanema;75.87
+Moema;75.87
+Pará de Minas;75.87
+São Sebastião da Bela Vista;75.87
+Capetinga;75.88
+Claraval;75.88
+Iturama;75.88
+Abaeté;75.9
+Bueno Brandão;75.9
+Estiva;75.9
+Machado;75.9
+Ponte Nova;75.9
+Rochedo de Minas;75.92
+Varjão de Minas;75.79
+Dom Silvério;75.8
+Tapira;75.8
+Vargem Bonita;75.8
+Congonhal;75.81
+Espírito Santo do Dourado;75.81
+Pouso Alto;75.81
+Cabo Verde;75.82
+Monte Belo;75.82
+Alterosa;75.83
+Conceição da Aparecida;75.83
+Unaí;75.83
+Areado;75.84
+Douradoquara;75.84
+Iraí de Minas;75.84
+Maripá de Minas;75.84
+Rio Preto;75.84
+Santos Dumont;75.84
+Tapiraí;75.84
+Conselheiro Lafaiete;76.62
+Ituiutaba;75.37
+Caetanópolis;75.71
+Cascalho Rico;75.72
+Paiva;75.72
+São Vicente de Minas;75.72
+Itapecerica;75.73
+Manhumirim;75.74
+Quartel Geral;75.74
+Salto da Divisa;75.74
+Cláudio;75.75
+Espera Feliz;75.77
+Eugenópolis;75.77
+Natalândia;75.78
+Açucena;75.66
+Funilândia;75.66
+Jeceaba;75.66
+Florestal;75.69
+São João Batista do Glória;75.69
+Aguanil;75.7
+Fortuna de Minas;75.7
+Guaranésia;75.7
+Maravilhas;75.7
+Carmo de Minas;75.71
+Inhaúma;75.71
+São Sebastião do Rio Verde;75.71
+Campestre;75.59
+Inconfidentes;75.59
+Pedra do Indaiá;75.6
+Perdigão;75.6
+Córrego Danta;75.61
+Martinho Campos;75.61
+Caeté;75.62
+Japaraíba;75.62
+São Joaquim de Bicas;75.62
+Igarapé;75.63
+São José da Lapa;75.63
+Grupiara;75.64
+Patos de Minas;76.31
+Cristina;75.53
+Maria da Fé;75.53
+São Gonçalo do Pará;75.53
+Wenceslau Braz;75.53
+Alto Caparaó;75.54
+Durandé;75.54
+Igaratinga;75.54
+Piraúba;75.56
+Simão Pereira;75.57
+Divinópolis;75.63
+Alfenas;75.45
+Brasópolis;75.45
+Dona Eusébia;75.45
+Itamarati de Minas;75.45
+Palma;75.45
+Piranguinho;75.45
+Pirapetinga;75.45
+Recreio;75.45
+Santo Antônio do Aventureiro;75.45
+Silveirânia;75.45
+Ubá;75.45
+Volta Grande;75.45
+Capinópolis;75.47
+Conceição dos Ouros;75.49
+Corinto;75.49
+Sapucaí-Mirim;75.49
+Oliveira;75.51
+Governador Valadares;75.06
+Itaúna;76.02
+Itumirim;75.39
+Córrego do Bom Jesus;75.4
+Dores do Indaiá;75.4
+Estrela do Sul;75.4
+Carmo da Mata;75.41
+Ibirité;75.41
+Piedade dos Gerais;75.42
+Muriaé;76.18
+Lagamar;75.31
+Monsenhor Paulo;75.32
+Diamantina;75.33
+Nova Resende;75.33
+Periquito;75.34
+Abadia dos Dourados;75.35
+Manhuaçu;75.35
+Santa Cruz de Minas;75.35
+Mateus Leme;75.36
+Ijaci;75.37
+Santo Antônio do Monte;75.37
+Sete Lagoas;75.37
+Camacho;75.38
+Coqueiral;75.26
+Elói Mendes;75.26
+São Roque de Minas;75.27
+Marliéria;75.29
+Antônio Carlos;75.3
+Itabirinha;75.3
+Capim Branco;75.19
+Carangola;75.19
+Jaboticatubas;75.19
+Miraí;75.19
+Delfim Moreira;75.2
+São José do Alegre;75.2
+Camanducaia;75.22
+Cássia;75.22
+Guidoval;75.22
+Conselheiro Pena;75.24
+Itaguara;75.14
+Timóteo;75.14
+São Sebastião do Paraíso;75.15
+Caparaó;75.16
+Caratinga;75.16
+São João do Manhuaçu;75.16
+São Pedro da União;75.16
+Arantina;75.05
+Pompéu;75.05
+Serranos;75.05
+Indianópolis;75.06
+Rio Novo;75.07
+Nova Ponte;75.08
+Goianá;75.1
+Mário Campos;74.99
+Itatiaiuçu;75.0
+Luz;75.0
+Serrania;75.0
+Alfredo Vasconcelos;75.01
+Bom Jesus do Amparo;75.01
+Bonfim;75.01
+Conceição do Rio Verde;75.01
+Ibertioga;75.01
+Liberdade;75.01
+Ressaquinha;75.01
+Serro;75.01
+Cachoeira da Prata;75.02
+Santana do Riacho;75.02
+Ouro Preto;75.03
+Formoso;75.04
+Limeira do Oeste;75.04
+Senador Cortes;75.05
+Vespasiano;73.65
+Alagoa;74.93
+Pimenta;74.93
+Contagem;74.94
+Cruzeiro da Fortaleza;74.94
+Gonçalves;74.96
+Papagaios;74.96
+São Francisco do Glória;74.96
+Baependi;74.97
+Caiana;74.98
+Gouveia;74.98
+Resplendor;74.99
+Sabará;74.99
+Juiz de Fora;75.65
+Jesuânia;74.88
+Presidente Olegário;74.88
+Soledade de Minas;74.88
+Lagoa da Prata;74.89
+Raposos;74.9
+São Sebastião do Oeste;74.9
+Lagoa Formosa;74.91
+Antônio Prado de Minas;74.79
+Santa Rita do Sapucaí;74.8
+Belmiro Braga;74.81
+Candeias;74.81
+Nazareno;74.82
+Campanário;74.85
+Itanhomi;74.85
+Mercês;74.85
+Nacip Raydan;74.85
+Pescador;74.85
+São Geraldo;74.85
+Guapé;74.86
+Virginópolis;74.86
+União de Minas;74.73
+Virgínia;74.73
+Dores do Turvo;74.75
+Senador Firmino;74.75
+Guarda-Mor;74.76
+Confins;74.79
+Morada Nova de Minas;74.79
+Itabirito;74.68
+Lagoa Dourada;74.68
+Alto Rio Doce;74.7
+Ervália;74.7
+Lamim;74.7
+São Miguel do Anta;74.7
+Turvolândia;74.71
+Inhapim;74.72
+Ipaba;74.72
+Tarumirim;74.72
+Campo do Meio;74.61
+Ilicínea;74.61
+Tumiritinga;74.63
+Barão de Monte Alto;74.64
+Miradouro;74.64
+Pedra Dourada;74.64
+São Sebastião da Vargem Alegre;74.64
+Catas Altas;74.65
+Pirapora;74.65
+Carlos Chagas;74.55
+Sem-Peixe;74.57
+Santa Rita de Jacutinga;74.58
+São Tiago;74.48
+Coimbra;74.49
+Capitólio;74.51
+Conceição de Ipanema;74.51
+Guimarânia;74.51
+Iguatama;74.51
+Itueta;74.51
+Mar de Espanha;74.51
+Careaçu;74.41
+Paineiras;74.41
+Senador José Bento;74.41
+Oratórios;74.42
+Piau;74.42
+Alpercata;74.43
+São Geraldo do Baixio;74.43
+Joaquim Felício;74.44
+Santo Hipólito;74.44
+Teófilo Otoni;74.45
+Nova Era;74.48
+Abre Campo;74.36
+Acaiaca;74.36
+Barra Longa;74.36
+Divino;74.36
+Raul Soares;74.36
+Santa Rita de Caldas;74.36
+Santo Antônio do Grama;74.36
+São Domingos do Prata;74.36
+São José do Mantimento;74.36
+Simonésia;74.36
+Aracitaba;74.37
+Central de Minas;74.37
+Ewbank da Câmara;74.37
+Olaria;74.37
+Santa Bárbara do Monte Verde;74.37
+Paula Cândido;74.38
+Casa Grande;74.39
+Cristiano Otoni;74.39
+Ibituruna;74.39
+Itambé do Mato Dentro;74.39
+Queluzito;74.39
+Santo Antônio do Amparo;74.39
+Santo Antônio do Rio Abaixo;74.39
+Coronel Xavier Chaves;74.4
+Dores de Campos;74.4
+Resende Costa;74.4
+Capelinha;74.41
+Bocaiúva;74.29
+Heliodora;74.29
+São João da Mata;74.29
+Mutum;74.3
+Nepomuceno;74.3
+Esmeraldas;74.31
+Ribeirão das Neves;74.31
+Naque;74.32
+Santana do Garambéu;74.32
+Alvinópolis;74.34
+Bom Jardim de Minas;74.34
+Dionísio;74.24
+Ferros;74.24
+Santa Maria de Itabira;74.24
+Bom Repouso;74.25
+Cachoeira de Minas;74.25
+Cana Verde;74.25
+Conceição das Pedras;74.25
+Munhoz;74.25
+Senador Amaral;74.25
+Dores de Guanhães;74.26
+Pedra do Anta;74.26
+Araçuaí;74.27
+Campos Gerais;74.27
+Carandaí;74.27
+Luminárias;74.27
+Medina;74.27
+Tabuleiro;74.27
+Carvalhos;74.2
+Chapada Gaúcha;74.22
+Guanhães;74.22
+Januária;74.22
+Piedade do Rio Grande;74.22
+Dom Joaquim;74.12
+Dom Viçoso;74.12
+Iapu;74.12
+Vargem Alegre;74.12
+Monjolos;74.16
+Andrelândia;74.06
+Nova União;74.06
+Taquaraçu de Minas;74.06
+Jequitinhonha;73.99
+Rubim;73.99
+Argirita;74.0
+Santa Maria do Suaçuí;74.03
+Santana de Pirapama;73.93
+Cantagalo;73.94
+São Sebastião do Maranhão;73.94
+Berilo;73.97
+Crucilândia;73.97
+Morro da Garça;73.97
+Santa Bárbara;73.97
+Turmalina;73.98
+Belo Vale;73.86
+Arinos;73.88
+Buritis;73.88
+Dom Bosco;73.88
+Umburatiba;73.88
+Augusto de Lima;73.9
+Felixlândia;73.9
+Salinas;73.9
+Taiobeiras;73.9
+Conceição da Barra de Minas;73.91
+Engenheiro Caldas;73.91
+São Gonçalo do Rio Preto;73.91
+Ritápolis;73.91
+Santa Cruz do Escalvado;73.91
+Ipiaçu;73.82
+São José do Goiabal;73.83
+Várzea da Palma;73.83
+Albertina;73.76
+Ataléia;73.77
+Belo Oriente;73.77
+Pavão;73.77
+Araporã;73.78
+Brasília de Minas;73.78
+Romaria;73.78
+São João da Lagoa;73.78
+Rio Casca;73.79
+Fronteira dos Vales;73.8
+Rosário da Limeira;73.69
+São Francisco de Paula;73.69
+Sabinópolis;73.71
+Sardoá;73.71
+Divinolândia de Minas;73.72
+Glaucilândia;73.72
+Lagoa Grande;73.72
+Olhos-d'Água;73.72
+Guiricema;73.74
+Águas Formosas;73.63
+Amparo do Serra;73.63
+Diogo de Vasconcelos;73.63
+Itaverava;73.63
+Monte Azul;73.63
+Nova Porteirinha;73.63
+Vargem Grande do Rio Pardo;73.63
+Bandeira;73.64
+Coroaci;73.64
+Divino das Laranjeiras;73.64
+Urucânia;73.67
+Montezuma;73.55
+Morro do Pilar;73.55
+São Sebastião do Rio Preto;73.55
+Serra Azul de Minas;73.55
+Olímpio Noronha;73.56
+Santa Bárbara do Tugúrio;73.57
+Aimorés;73.58
+Lajinha;73.6
+Arceburgo;73.61
+Inimutaba;73.61
+Itamogi;73.61
+Jacuí;73.61
+Poté;73.52
+Caputira;73.53
+Desterro do Melo;73.53
+Luisburgo;73.53
+Martins Soares;73.53
+Passa-Vinte;73.53
+Santana do Manhuaçu;73.53
+Piracema;73.54
+Caranaíba;73.44
+Riacho dos Machados;73.45
+Águas Vermelhas;73.46
+Delta;73.46
+Passa Tempo;73.46
+Rubelita;73.46
+São João do Paraíso;73.46
+Pequi;73.47
+Vieiras;73.47
+Coração de Jesus;73.48
+Francisco Sá;73.48
+Juramento;73.48
+Bom Sucesso;73.49
+Tocos do Moji;73.49
+Cordislândia;73.39
+Pedralva;73.39
+Couto de Magalhães de Minas;73.4
+Guaraciama;73.4
+Jacinto;73.4
+Rio do Prado;73.4
+Fernandes Tourinho;73.43
+Minduri;73.32
+Onça de Pitangui;73.33
+Consolação;73.36
+Marmelópolis;73.36
+Piranguçu;73.36
+Capitão Enéas;73.37
+São João Evangelista;73.37
+Varzelândia;73.37
+Cajuri;73.26
+Porto Firme;73.26
+Teixeiras;73.26
+Araçaí;73.28
+Capitão Andrade;73.28
+Carmésia;73.28
+Natércia;73.28
+Sobrália;73.28
+São João do Manteninha;73.3
+Fortaleza de Minas;73.31
+Córrego Novo;73.32
+São João do Oriente;73.32
+Ubaporanga;73.32
+Presidente Bernardes;73.23
+Espinosa;73.26
+Indaiabira;73.26
+Novorizonte;73.26
+Santa Fé de Minas;73.26
+São Francisco;73.26
+Mantena;73.16
+Almenara;73.18
+Joanésia;73.2
+Braúnas;73.1
+Divisópolis;73.1
+Guarará;73.1
+Senhora do Porto;73.1
+Rio Manso;73.11
+Bandeira do Sul;73.14
+Desterro de Entre Rios;73.14
+Entre Rios de Minas;73.14
+Franciscópolis;73.14
+Ibitiúra de Minas;73.14
+Minas Novas;73.14
+Piedade de Ponte Nova;73.14
+Toledo;73.14
+Brás Pires;73.03
+Carmo da Cachoeira;73.03
+Divisa Nova;73.03
+Rio Espera;73.03
+São Bento Abade;73.03
+São Thomé das Letras;73.03
+Senhora de Oliveira;73.03
+Cedro do Abaeté;73.04
+Santana dos Montes;73.04
+São Brás do Suaçuí;73.04
+Rio Doce;73.07
+Reduto;73.08
+Tocantins;72.99
+Faria Lemos;73.0
+Bom Jesus do Galho;73.01
+Bugre;73.01
+Moeda;73.01
+Santa Bárbara do Leste;73.01
+São Domingos das Dores;73.01
+Água Boa;72.94
+José Raydan;72.94
+Bertópolis;72.96
+Campo Azul;72.96
+Catas Altas da Noruega;72.96
+Claro dos Poções;72.96
+Cônego Marinho;72.96
+Crisólita;72.96
+Frei Gaspar;72.96
+Icaraí de Minas;72.96
+Luislândia;72.96
+Manga;72.96
+Matias Cardoso;72.96
+Montalvânia;72.96
+Pintópolis;72.96
+Piranga;72.96
+Alvarenga;72.85
+Cuparaque;72.85
+Rio Pardo de Minas;72.85
+São João do Pacuí;72.85
+Chapada do Norte;72.86
+Itamarandiba;72.86
+Canaã;72.88
+Goiabeira;72.91
+Pocrane;72.91
+Taparuba;72.91
+Ponto Chique;72.81
+Verdelândia;72.81
+Jordânia;72.82
+Comercinho;72.83
+Itinga;72.83
+Novo Cruzeiro;72.83
+Padre Paraíso;72.83
+Virgem da Lapa;72.83
+Capela Nova;72.84
+Rodeiro;72.84
+Descoberto;72.85
+Buenópolis;72.74
+Carbonita;72.74
+Gameleiras;72.74
+Janaúba;72.74
+Porteirinha;72.74
+Presidente Juscelino;72.74
+Bias Fortes;72.75
+São Gonçalo do Abaeté;72.75
+Mesquita;72.76
+Patrocínio do Muriaé;72.78
+Jequitaí;72.79
+Pedra Azul;72.79
+Francisco Dumont;72.8
+Prudente de Morais;72.7
+Cristália;72.71
+Galiléia;72.71
+Ibiaí;72.71
+Lassance;72.71
+Padre Carvalho;72.71
+Riachinho;72.71
+Mathias Lobato;72.71
+Virgolândia;72.71
+Bela Vista de Minas;72.72
+Bonfinópolis de Minas;72.73
+Fervedouro;72.73
+Rio Piracicaba;72.63
+Alvorada de Minas;72.65
+Conceição do Mato Dentro;72.65
+Santo Antônio do Itambé;72.65
+Córrego Fundo;72.67
+São Félix de Minas;72.68
+Santana de Cataguases;72.58
+Jenipapo de Minas;72.59
+Santa Rita de Ibitipoca;72.6
+Uruana de Minas;72.6
+Felício dos Santos;72.61
+Guaraciaba;72.61
+Jequeri;72.61
+Lontra;72.61
+Mirabela;72.61
+Oliveira Fortes;72.61
+Pedro Teixeira;72.61
+São Gonçalo do Rio Abaixo;72.52
+Paraopeba;72.55
+Francisco Badaró;72.57
+Santa Efigênia de Minas;72.57
+Santa Rita de Minas;72.48
+Entre Folhas;72.5
+Fruta de Leite;72.5
+Engenheiro Navarro;72.44
+Grão Mogol;72.44
+Itacambira;72.44
+Paulistas;72.44
+Ouro Verde de Minas;72.35
+Coronel Pacheco;72.36
+Joaíma;72.36
+Santana do Jacaré;72.37
+Vermelho Novo;72.37
+Jaíba;72.33
+Mato Verde;72.33
+São Pedro dos Ferros;72.34
+Cabeceira Grande;72.25
+João Pinheiro;72.25
+Itaobim;72.19
+Baldim;72.21
+Chalé;72.21
+Alto Jequitibá;72.21
+Aricanduva;72.22
+Itacarambi;72.22
+Pedras de Maria da Cruz;72.22
+Presidente Kubitschek;72.22
+São Romão;72.22
+Ubaí;72.22
+Passabém;72.23
+Patis;72.23
+Peçanha;72.23
+Rio Vermelho;72.23
+Cordisburgo;72.17
+Ibiracatu;72.17
+Japonvar;72.17
+São João da Ponte;72.17
+Santa Margarida;72.07
+São Pedro do Suaçuí;72.08
+Divinésia;72.11
+Veredinha;72.11
+Dom Cavati;72.03
+Santo Antônio do Retiro;72.03
+Coronel Murta;72.05
+Itambacuri;72.05
+Serra dos Aimorés;72.06
+Machacalis;71.96
+Ninheira;72.01
+Coluna;71.91
+Botumirim;71.94
+Josenópolis;71.94
+Senador Modestino Gonçalves;71.94
+Jampruca;71.86
+Marilac;71.86
+Caraí;71.88
+Miravânia;71.88
+Ponto dos Volantes;71.88
+Urucuia;71.88
+Santa Rita do Itueto;71.76
+Matipó;71.8
+São José do Divino;71.7
+Frei Inocêncio;71.72
+Nova Módica;71.72
+Leme do Prado;71.73
+Mamonas;71.73
+Orizânia;71.67
+Senhora dos Remédios;71.56
+Sericita;71.56
+Bonito de Minas;71.57
+Juvenília;71.57
+São João das Missões;71.57
+São Geraldo da Piedade;71.43
+Gonzaga;71.44
+Catuti;71.38
+Serranópolis de Minas;71.38
+Santo Antônio do Jacinto;71.33
+Lagoa dos Patos;71.36
+Piedade de Caratinga;71.37
+Catuji;71.23
+Cachoeira de Pajeú;71.25
+Materlândia;71.16
+Mendes Pimentel;71.09
+Malacacheta;71.05
+Buritizeiro;71.06
+Nova Belém;71.06
+São Sebastião do Anta;70.98
+São José da Safira;70.91
+Monte Formoso;70.92
+Santa Maria do Salto;70.92
+José Gonçalves de Minas;70.81
+Pai Pedro;70.62
+Araponga;70.6
+Curral de Dentro;70.51
+Itaipé;70.52
+Berizal;70.41
+Santa Cruz de Salinas;70.41
+Angelândia;70.36
+Datas;70.36
+Ladainha;70.26
+Novo Oriente de Minas;70.26
+Cipotânea;69.97
+Mata Verde;69.92
+Frei Lagonegro;69.96
+São José do Jacuri;69.96
+Congonhas do Norte;69.74
+Pingo-d'Água;69.63
+Felisburgo;69.66
+Imbé de Minas;69.66
+Setubinha;69.6
+Pedra Bonita;69.41
+Palmópolis;69.29
+Santa Helena de Minas;68.37
+Divisa Alegre;68.39

@@ -1,0 +1,11 @@
+Trabalho Final Anotações:
+
+    Código será postado no Teams (Programa Python)
+    
+    Graficos, Json e Excel serão inputados no datalake - colocar meu nome no titulo do grafico nome do arquivo postado para não sobrescrever dos outros alunos
+    
+    Arquivos/AmazonS3.Python
+            /ExemploAcesso
+            /ArquivoJson
+
+
