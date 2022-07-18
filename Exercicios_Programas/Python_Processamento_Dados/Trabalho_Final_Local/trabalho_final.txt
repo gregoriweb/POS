@@ -1,0 +1,21 @@
+Trabalho Final
+Vence 19 de julho de 2022 às 23:59
+Instruções
+1) Com base no arquivo IBGE escolar disponibilizado no DataLake Puc Minas/Planilhas faça:
+
+a) Extraia qual município possui maior numero de pessoas com ensino superior
+completo por Etinia
+Faca um gráfico ilustrando seu resultado e colocar no DataLake graficos
+Gere o arquivo em formato .excel e coloque no DataLake planilha e um Json no
+diretorio Json
+
+b) Como base na sua cidade Natal mostre os indices do ensino superior por Etinia.
+Faca um gráfico ilustrando seu resultado e coloque no DataLake Imagens
+Gere o arquivo em formato excel e coloque no DataLake planilha e um Json no
+diretorio Json
+
+c) Faça um gráfico com a média dos índices por sua região
+Materiais de referência
+Notas
+IBGE Escolar.csv
+Meu trabalho

@@ -91,9 +91,9 @@ titulo = "Mortalidade.png"
 mapa =  le_arquivoS3(qtde_expectativa, flag_ordenacao, tipo_expectativa)
 grava_imagem(mapa, os.path.join(os.path.dirname(__file__), titulo))
 grava_Json_excel(mapa)
+
 ssl._create_default_https_context = ssl._create_unverified_context    
 AS3 = AmazonS3()
 AS3.post_receipt_image(file_name_grafico)
 #AS3.post_receipt_json(file_name_json)
 #AS3.post_receipt_json(file_name_excel)
-

@@ -1,0 +1,9 @@
+Problema 8    
+ 
+1- Total de reservas realizadas 
+2- Quantas reservas possuíam trechos  
+3- Quantas tem troca de aeronave 
+4- Quantas reservas foram canceladas por falta de bilhetes não emitidos até o prazo 
+estipulado 
+5- Quantas reservas foram prorrogadas 
+6- Qual a média de voos feita por dia, mês e ano 
