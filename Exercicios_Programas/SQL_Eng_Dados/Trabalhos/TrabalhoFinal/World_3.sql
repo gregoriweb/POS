@@ -14,7 +14,8 @@
 
 use world;
 
--- 1  – Top 3 continentes em quantidade populacional registrados na base de dados.  
+-- 1  – Top 3 continentes em quantidade populacional registrados na base de dados. 
+	use world;
 	SELECT Continent, sum(Population) Population FROM world.country
 	group by Continent
 	order by Population desc
@@ -26,36 +27,44 @@ use world;
 
 	-- Expectativa media por pais
 		-- Query origem:
+			use world;
 			SELECT Code, Name, LifeExpectancy FROM world.country;
 		-- View derivada:
+			use world;
 			CREATE VIEW v_world_country_lifeexpectancy AS
 				SELECT Code, Name, LifeExpectancy FROM world.country;
 
 	-- Expectativa media do planeta
 		-- Query origem:
+			use world;
 			SELECT sum(LifeExpectancy) / count(*) as WorldLifeExpectancy FROM world.country;
 		-- View derivada:
+			use world;
 			CREATE VIEW v_world_world_lifeexpectancy AS
 				SELECT sum(LifeExpectancy) / count(*) as WorldLifeExpectancy  FROM world.country;
         
 	-- Paises com Expectativa de Vida maior que a media
 		-- Sem as views:
+			use world;
 			select * from (
 			select Name, LifeExpectancy FROM world.country ) lew
 			where lew.LifeExpectancy >= (SELECT sum(LifeExpectancy) / count(*)  FROM world.country);
 		
 		-- Com as Views 
+			use world;
 			SET @world_lifeexpectancy = (select WorldLifeExpectancy from v_world_world_lifeexpectancy);
 			select * FROM  v_world_country_lifeexpectancy
 			where LifeExpectancy >= @world_lifeexpectancy;
 
 	-- Paises com Expectativa de Vida menor que a media
 		-- Sem as views: 
+			use world;
 			select * from (
 			select Name, LifeExpectancy FROM world.country ) lew
 			where lew.LifeExpectancy < (SELECT sum(LifeExpectancy) / count(*)  FROM world.country);
             
 		-- Com as Views 
+			use world;
 			SET @world_lifeexpectancy = (select WorldLifeExpectancy from v_world_world_lifeexpectancy);
 			select * FROM  v_world_country_lifeexpectancy
 			where LifeExpectancy < @world_lifeexpectancy;
@@ -66,16 +75,19 @@ use world;
 -- acima da média geral da população levando em consideração o agrupamento dos  continentes.  
 
 	-- Media populacional de cada continente
+		use world;
 		SELECT 	Continent, count(*) 'N. Countries', sum(LifeExpectancy)/count(*) as ContinentLifeExpectancy FROM world.country
 		group by Continent;
         
 	-- View Derivada
+		use world;
 		CREATE VIEW v_world_continent_lifeexpectancy AS
 			SELECT 	Continent, count(*) 'N. Countries', sum(LifeExpectancy)/count(*) as ContinentLifeExpectancy FROM world.country
 			group by Continent;
 	
 	-- Paises com expectativa de vida maior que a média de seu continente
 		-- Sem views
+			use world;
 			select Name Pais from (
 				(SELECT 	Continent, sum(LifeExpectancy)/count(*) exp_vida_continente FROM world.country
 				group by Continent) continente
@@ -85,6 +97,7 @@ use world;
 			where exp_vida_pais >= exp_vida_continente;
 		
         -- Com views
+			use world;
 			SELECT 
 				*
 			FROM
@@ -95,6 +108,7 @@ use world;
 
 	-- Paises com expectativa de vida menor que a média de seu continente
 		-- Sem views
+			use world;
 			select Name Pais from (
 			(SELECT 	Continent, sum(LifeExpectancy)/count(*) exp_vida_continente FROM world.country
 			group by Continent) continente
@@ -104,6 +118,7 @@ use world;
 			where exp_vida_pais < exp_vida_continente;
             
 		-- Com views
+			use world;
 			SELECT 
 				*
 			FROM
