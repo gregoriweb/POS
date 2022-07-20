@@ -78,8 +78,8 @@
         
 -- View Ids Locacoes, Ids Filmes, Ids Category Agrupado por ano
 	use sakila;
-	create or replace view v_sakila_filmes_locacoes_ano as 
-	select year(rental_date)  ano, fc.category_id, count(*) qtde_filmes_locados from rental r
+	create or replace view v_sakila_qtde_filmes_locados_ano_categoria as 
+	select year(rental_date)  ano, fc.category_id, count(distinct f.film_id) qtde_filmes_locados from rental r
 		JOIN sakila.inventory i ON r.inventory_id = i.inventory_id
 		JOIN sakila.film f ON i.film_id = f.film_id
 		JOIN sakila.film_category fc ON f.film_id = fc.film_id
@@ -87,23 +87,23 @@
 
 -- Views Locacoes por ano e categoria
 	use sakila;
-	create or replace view v_sakila_locacoes_ano_categoria as
-	select year(rental_date) ano, fc.category_id, count(*) qtde_locacao from rental r
+	create or replace view v_sakila_qtde_locacoes_ano_categoria as
+	select year(rental_date) ano, fc.category_id, count(*) qtde_locacoes from rental r
 		JOIN sakila.inventory i ON r.inventory_id = i.inventory_id
 		JOIN sakila.film f ON i.film_id = f.film_id
 		JOIN sakila.film_category fc ON f.film_id = fc.film_id
-	group by fc.category_id;
+	group by year(rental_date),fc.category_id;
 
  -- View Quantidade de Filmes locados por categoria em cada ano com as views
  -- v_sakila_locacoes_ano_categoria e  v_sakila_filmes_locacoes_ano
 	use sakila;
 	create or replace view v_sakila_filmes_locados_por_categoria_por_ano as
-    select lac.ano, c.name as 'Categoria', qtde_locacao as 'Qtde de Locações', qtde_filmes_locados 'Qtde Filmes Locados' from v_sakila_locacoes_ano_categoria lac
-    join v_sakila_filmes_locacoes_ano laf on lac.category_id = laf.category_id and lac.ano = laf.ano
+    select lac.ano, c.name as 'Categoria', qtde_filmes_locados 'Qtde Filmes Locados', qtde_locacoes as 'Qtde de Locações' from v_sakila_qtde_locacoes_ano_categoria lac
+    join v_sakila_qtde_filmes_locados_ano_categoria laf on lac.category_id = laf.category_id and lac.ano = laf.ano
     join category c on laf.category_id = c.category_id
     group by  lac.ano, laf.category_id
     order by ano, categoria;
-    
+        
 -- Quantidade de filmes  locados  por  categoria  em  cada  um  dos  anos
 	use sakila;
     select * from v_sakila_filmes_locados_por_categoria_por_ano;
@@ -152,6 +152,7 @@
 
 
 -- Quantidade de filmes por categoria e os valores totais de locação de cada filme
+		use sakila;
 		select vc.category as Categoria, n_filmes_categoria 'Qtde Filmes Categoria',title 'Filme', n_locacoes 'Qtde Locacoes Filme',  valor_locado_filme 'Valor Total em Locacoes Filme'  from v_sakila_qtd_valor_por_filme vf
 		join v_sakila_qtd_valor_por_categoria vc on vc.category_id = vf.category_id
         join v_sakila_filmes_por_categoria vfc on vf.category_id = vfc.category_id
@@ -162,16 +163,20 @@
 -- separados, que podem ser views, quais deles ficaram abaixo da média geral de atuações e quais 
 -- ficaram acima da média geral de atuações.  
 
--- Total de atores 
+-- Total de atores
+use sakila;
 SELECT COUNT(*) FROM actor;
 
 -- Total de atuações
+use sakila;
 select COUNT(*) from film_actor;
 
 -- Media de Atuacoes por ator
+use sakila;
 select (select COUNT(*) from film_actor) / (SELECT COUNT(*) FROM actor);
 
 -- N. de atuacoes por ator
+use sakila;
 SELECT a.actor_id, concat(a.first_name, ' ', a.last_name) ator, COUNT(*) n_filmes
 FROM film_actor fa
 join film f on f.film_id = fa.film_id
@@ -179,6 +184,7 @@ join actor a on a.actor_id = fa.actor_id
 group by a.actor_id;
 
 -- View Quais Atores estão abaixo da media de atuações
+use sakila;
 create or replace view v_sakila_atores_abaixo_media_atuacao as
 select ator, n_atuacoes from (
 SELECT a.actor_id, concat(a.first_name, ' ', a.last_name) ator, COUNT(*) n_atuacoes
@@ -207,6 +213,7 @@ select * from v_sakila_atores_abaixo_media_atuacao;
 -- da categoria por ano. 
 
 -- Valor medio por locação
+use sakila;
 create or replace view v_sakila_valor_medio_locacao as
 select sum(amount)/COUNT(*) from sakila.payment;
 
@@ -308,18 +315,19 @@ join v_sakila_valor_medio_locacao_por_categoria_por_ano mca
 -- order by ano_locacao, Categoria, `Valor Medio por Filme/Ano` asc;
 order by Filme, ano_locacao;
 
+-- Filmes acima da media de locacao de sua categoria por ano
+select * from v_sakila_filmes_acima_media_locacao_da_categoria_ano;
+
+-- Filmes abaixo da media de locacao de sua categoria por ano:
+select * from v_sakila_filmes_abaixo_media_locacao_da_categoria_ano;
 
 -- Filmes acima da media de locacao de sua categoria:
 select * from v_sakila_filmes_acima_media_locacao_da_categoria;
 
--- Filmes acima da media de locacao de sua categoria por ano
-select * from v_sakila_filmes_acima_media_locacao_da_categoria_ano;
-
 -- Filmes abaixo da media de locacao de sua categoria:
 select * from v_sakila_filmes_abaixo_media_locacao_da_categoria;
 
--- Filmes abaixo da media de locacao de sua categoria por ano:
-select * from v_sakila_filmes_abaixo_media_locacao_da_categoria_ano;
+
 
 
 -- ----------------------------------------------------------------------------------------------------------------------------------
