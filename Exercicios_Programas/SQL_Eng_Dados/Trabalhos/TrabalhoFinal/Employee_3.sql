@@ -50,7 +50,7 @@
 	group by dept_name, year(vdam.month);
 	
 	
-	-- View Qtde de Empregados Ativos alocados por setor por ano
+	-- View Qtde de Empregados Atualmente Ativos alocados por setor por ano
     create or replace view v_employees_empregados_ativos_por_ano as
 		SELECT dept_name,  year(vdam.month), count(*)
 		FROM dept_emp 
@@ -60,10 +60,10 @@
 			on 	vdam.month >= last_day(from_date) 
 				and vdam.month <= ( IF(last_day(to_date) = '9999-01-01', last_day(date(now())), last_day(to_date)) ) 
 				and MONTH(vdam.month) = 12
-		where to_date  = '9999-01-01'  -- ativo { = '9999-01-01'} inativo {< '9999-01-01'}
+		where to_date  = '9999-01-01'
 		group by dept_name, year(vdam.month);
     
-	-- View Qtde de Empregados Inativos alocados por setor por ano
+	-- View Qtde de Empregados Atualmente Inativos alocados por setor por ano
 		create or replace view v_employees_empregados_inativos_por_ano as
 			SELECT dept_name,  year(vdam.month), count(*)
 			FROM dept_emp 
@@ -74,7 +74,7 @@
 					and vdam.month <= ( IF(last_day(to_date) = '9999-01-01', last_day(date(now())), last_day(to_date)) ) 
 					and MONTH(vdam.month) = 12
 			where to_date  < '9999-01-01'
-			group by dept_name, year(vdam.month)
+			group by dept_name, year(vdam.month);
 	
 
 -- 2 – Quantidade de cargos ocupada por cada funcionário no histórico de prestação de serviços 
@@ -102,7 +102,6 @@
 	INNER JOIN
 		titles ON titles.emp_no = employees.emp_no
 	group by employees.emp_no
-	having count(*) > (select count(*) total_titles from titles)/(select count(*) total_employees from employees)
 
 -- View Funcionários com mais cargos que a média da companhia:
 	create or replace view v_employees_empregados_cargos_mais_que_media as
@@ -119,13 +118,75 @@
 			titles ON titles.emp_no = employees.emp_no
 		group by employees.emp_no
 		having count(*) < (select count(*) total_titles from titles)/(select count(*) total_employees from employees)
+        
+-- Funcionários que ficaram acima da média de numero de cargos ocupados:
+	select * from v_employees_empregados_cargos_mais_que_media;
+
+-- Funcionários que ficaram abaixo da média de numero de cargos ocupados:
+	select * from v_employees_empregados_cargos_menos_que_media;
 
 -- 4 – Qual a média de salários de cada departamento e a média geral da empresa demonstrando 
 -- em comandos separados, que podem ser views, quais focaram acima e abaixo da média por 
 -- ano.
 
+	SELECT dept_name,  year(vdam.month), count(*)
+	FROM dept_emp 
+	join departments on departments.dept_no = dept_emp.dept_no 
+	join employees on employees.emp_no = dept_emp.emp_no 
+	join _date_aux_months vdam 
+		on 	vdam.month >= last_day(from_date) 
+			and vdam.month <= ( IF(last_day(to_date) = '9999-01-01', last_day(date(now())), last_day(to_date)) ) 
+			and MONTH(vdam.month) = 12
+	group by dept_name, year(vdam.month);
+
+	select * from salaries s
+    join _date_aux_months vdam 
+   		on 	vdam.month >= last_day(from_date) 
+			and vdam.month <= ( IF(last_day(to_date) = '9999-01-01', last_day(date(now())), last_day(to_date)) ) 
+			and MONTH(vdam.month) = 12
+            
+
+-- Salrio por dia
+select emp_no, salary, from_date, to_date, datediff( if(to_date = '9999-01-01', last_day(now()), to_date), from_date ), salary/datediff( if(to_date = '9999-01-01', last_day(now()), to_date), from_date )  from salaries where emp_no = 10001
+
+-- Salario por dia -- arrumar ultimo ano adicionando um ano em cada ano
+select emp_no,  from_date, to_date, datediff( if(to_date = '9999-01-01', last_day(now()), to_date), from_date ) dias_salario, salary/datediff( if(to_date = '9999-01-01', last_day(now()), to_date), from_date )  from salaries where emp_no = 10001
+    
+    
+    
+    
+    
+
+    
+    
+    select * from datediff(if(to_date, '9999-01-01', last_day(now()), from_date) 
+    
+    
+    select if(to_date = '9999-01-01', last_day(now()), to_date) from salaries  where emp_no = 10001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Feito com empregados atualmente contratados (where de.to_date = '9999-01-01').
 -- Os salário na base parecem ser anuais, um calculo *12 não é necessário
+
+-- Media Salarial Companhia - Funcionarios com contratos vigentes
+
+select  sum(salary)/count(*) as MediaSalarial FROM employees.current_dept_emp de
+inner join  salaries s ON s.emp_no = de.emp_no and s.to_date = de.to_date 
+where de.to_date = '9999-01-01'
+
+
 
 -- Media Salarial Companhia - Funcionarios com contratos vigentes
 select  sum(salary)/count(*) as MediaSalarial FROM employees.current_dept_emp de
